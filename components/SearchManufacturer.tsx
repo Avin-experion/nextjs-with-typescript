@@ -5,6 +5,7 @@ import Image from 'next/image'
 import carImage from '../public/car-logo.svg'
 import { useState, Fragment } from 'react'
 import { manufacturers } from '@/constants'
+import React from 'react'
 
 const SearchManufacturer = ({manufacturer,setManufacturer} : SearchManufacturerProps ) => {
     const [query, setQuery] = useState('');

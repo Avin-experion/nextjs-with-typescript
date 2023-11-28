@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { footerLinks } from '@/constants'
 import Link from 'next/link'
 import logo from '../public/logo.svg';
+import React from 'react';
 
 
 const Footer = () => {
@@ -52,4 +53,3 @@ const Footer = () => {
 }
 
 export default Footer
-Footer

@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import CustomButton from './CustomButton'
 import carImage from '../public/hero.png';
+import React from 'react';
 
 const Hero = () => {
 

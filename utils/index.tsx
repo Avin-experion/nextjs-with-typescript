@@ -32,7 +32,7 @@ export async function fetchCars() {
     return result;
 }
 
-export async function calculateCarRent(city_mpg:number, year:number){
+export function calculateCarRent(city_mpg:number, year:number){
     const basePricePerDay = 50;
 
     const mileageFactor = 0.1;
